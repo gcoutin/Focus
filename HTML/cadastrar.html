@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus - Nova Tarefa</title>
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/gabriel.css">
+</head>
+<body>
+    <header>
+        <h1>Focus</h1>
+        <p>Cadastro de Tarefas</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="tarefas.html">Minhas Tarefas</a>
+        <a href="cadastrar.html">Nova Tarefa</a>
+        <a href="concluidas.html">Concluídas</a>
+        <a href="produtividade.html">Produtividade</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+    <main>
+        <section class="formulario">
+            <h2>Cadastrar Nova Tarefa</h2>
+            <p>Preencha as informações da atividade.</p>
+
+            <form>
+                <fieldset>
+                    <legend>Informações da Tarefa</legend>
+
+                    <label for="nome">Nome da Tarefa:</label>
+                    <input type="text" id="nome"
+                           name="nome"
+                           placeholder="Digite o nome"
+                           required>
+
+                    <label for="descricao">Descrição:</label>
+                    <textarea id="descricao"
+                              name="descricao"
+                              rows="4"
+                              placeholder="Descreva a tarefa"></textarea>
+
+                    <label for="data">Prazo:</label>
+                    <input type="date" id="data"
+                           name="data" required>
+
+                    <label for="tipo">Categoria:</label>
+                    <select id="tipo" name="tipo">
+                        <option>Estudos</option>
+                        <option>Trabalho</option>
+                        <option>Pessoal</option>
+                    </select>
+
+                    <label for="nivel">Prioridade:</label>
+                    <select id="nivel" name="nivel">
+                        <option>Alta</option>
+                        <option>Média</option>
+                        <option>Baixa</option>
+                    </select>
+
+                    <label for="situacao">Situação:</label>
+                    <select id="situacao" name="situacao">
+                        <option>Pendente</option>
+                        <option>Em andamento</option>
+                        <option>Concluída</option>
+                    </select>
+
+                    <input type="reset" value="Limpar">
+                </fieldset>
+            </form>
+
+            <p>
+                Demonstração de formulário.
+                As informações não serão salvas.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Focus - Organização e Produtividade</p>
+    </footer>
+
+</body>
+</html>
