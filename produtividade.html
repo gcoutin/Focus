@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus - Produtividade</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="caio.css">
+</head>
+<body>
+
+    <header>
+        <h1>Focus</h1>
+        <p>Painel de Produtividade</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="tarefas.html">Minhas Tarefas</a>
+        <a href="cadastrar.html">Nova Tarefa</a>
+        <a href="concluidas.html">Concluídas</a>
+        <a href="produtividade.html">Produtividade</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+    <main>
+        <h2>Meu Desempenho</h2>
+        <p>
+            Acompanhe o progresso das suas atividades
+            e visualize sua produtividade.
+        </p>
+
+        <section class="cards">
+            <div class="card">
+                <h3>Total de Tarefas</h3>
+                <p class="numero">6</p>
+            </div>
+
+            <div class="card">
+                <h3>Concluídas</h3>
+                <p class="numero">2</p>
+            </div>
+
+            <div class="card">
+                <h3>Pendentes</h3>
+                <p class="numero">3</p>
+            </div>
+
+            <div class="card">
+                <h3>Em Andamento</h3>
+                <p class="numero">1</p>
+            </div>
+        </section>
+
+        <section class="painel progresso">
+            <h2>Progresso Geral</h2>
+            <p>2 de 6 tarefas concluídas</p>
+            <progress value="2" max="6"></progress>
+            <p>33% das atividades concluídas.</p>
+        </section>
+
+        <section class="painel progresso">
+            <h2>Progresso por Categoria</h2>
+
+            <h3>Estudos</h3>
+            <p>1 de 3 tarefas concluídas</p>
+            <progress value="1" max="3"></progress>
+
+            <h3>Pessoal</h3>
+            <p>1 de 2 tarefas concluídas</p>
+            <progress value="1" max="2"></progress>
+
+            <h3>Trabalho</h3>
+            <p>0 de 1 tarefa concluída</p>
+            <progress value="0" max="1"></progress>
+        </section>
+
+        <section class="painel">
+            <h2>Resumo de Produtividade</h2>
+            <p>
+                Continue realizando suas tarefas
+                e organizando seus compromissos.
+            </p>
+            <a class="botao" href="tarefas.html">
+                Visualizar Tarefas
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Focus - Organização e Produtividade</p>
+    </footer>
+
+</body>
+</html>
