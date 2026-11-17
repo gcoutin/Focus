@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus - Minhas Tarefas</title>
+     <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/gabriel.css">
+</head>
+<body>
+     <header>
+        <h1>Focus</h1>
+        <p>Gerenciamento de Tarefas</p>
+    </header>
+
+     <nav>
+        <a href="index.html">Início</a>
+        <a href="tarefas.html">Minhas Tarefas</a>
+        <a href="cadastrar.html">Nova Tarefa</a>
+        <a href="concluidas.html">Concluídas</a>
+        <a href="produtividade.html">Produtividade</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+    <main>
+        <h2>Minhas Tarefas</h2>
+        <p>Acompanhe suas atividades e prioridades.</p>
+
+        <section class="painel">
+            <h3>Pesquisar Tarefas</h3>
+
+            <form>
+                <label for="pesquisa">Pesquisar:</label>
+                <input type="search" id="pesquisa"
+                       placeholder="Nome da tarefa">
+
+                <label for="categoria">Categoria:</label>
+                <select id="categoria">
+                    <option>Todas</option>
+                    <option>Estudos</option>
+                    <option>Trabalho</option>
+                    <option>Pessoal</option>
+                </select>
+
+                <label for="prioridade">Prioridade:</label>
+                <select id="prioridade">
+                    <option>Todas</option>
+                    <option>Alta</option>
+                    <option>Média</option>
+                    <option>Baixa</option>
+                </select>
+            </form>
+
+            <p>Filtros demonstrativos.</p>
+        </section>
+
+        <section>
+            <h2>Lista de Tarefas</h2>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>Estudar HTML</h3>
+                    <p>Categoria: Estudos</p>
+                    <p>Prioridade: Alta</p>
+                    <p>Prazo: 20/11/2026</p>
+                    <p>Situação: Pendente</p>
+                </article>
+
+                <article class="card">
+                    <h3>Finalizar Trabalho</h3>
+                    <p>Categoria: Estudos</p>
+                    <p>Prioridade: Alta</p>
+                    <p>Prazo: 22/11/2026</p>
+                    <p>Situação: Em andamento</p>
+                </article>
+
+                <article class="card">
+                    <h3>Organizar Materiais</h3>
+                    <p>Categoria: Pessoal</p>
+                    <p>Prioridade: Média</p>
+                    <p>Prazo: 25/11/2026</p>
+                    <p>Situação: Pendente</p>
+                </article>
+
+                <article class="card">
+                    <h3>Revisar CSS</h3>
+                    <p>Categoria: Estudos</p>
+                    <p>Prioridade: Média</p>
+                    <p>Prazo: 18/11/2026</p>
+                    <p>Situação: Concluída</p>
+                </article>
+
+                <article class="card">
+                    <h3>Planejar Semana</h3>
+                    <p>Categoria: Pessoal</p>
+                    <p>Prioridade: Baixa</p>
+                    <p>Prazo: 16/11/2026</p>
+                    <p>Situação: Concluída</p>
+                </article>
+
+                <article class="card">
+                    <h3>Organizar Documentos</h3>
+                    <p>Categoria: Trabalho</p>
+                    <p>Prioridade: Baixa</p>
+                    <p>Prazo: 28/11/2026</p>
+                    <p>Situação: Pendente</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+     <footer>
+        <p>Focus - Organização e Produtividade</p>
+    </footer>
+
+</body>
+</html>
